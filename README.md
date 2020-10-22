@@ -27,10 +27,10 @@ python3 program_name.py
 
 ### Program Effectiveness
 
-| No | Program Library | Accuracy |
-| 1 | easy_ocr | **80%** |
-| 2 | google-vision | **90%** |
-| 3 | Pytessearct | **70%** |
+| No | Program Library | Accuracy|
+| 1  | easy_ocr        | **80%** |
+| 2  | google-vision   | **90%** |
+| 3  | Pytessearct     | **70%** |
 
 > Pytessearct need opencv to pre process image
 > Depend on pre processing of image pytessearct accuracy may differ.
