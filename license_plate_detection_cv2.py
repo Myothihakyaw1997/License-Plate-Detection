@@ -14,7 +14,7 @@ gray = cv2.bilateralFilter(gray, 13, 15, 15)
 edged = cv2.Canny(gray, 30, 200) 
 contours = cv2.findContours(edged.copy(), cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 contours = imutils.grab_contours(contours)
-contours = sorted(contours, key = cv2.contourArea, reverse = True)
+contours = sorted(contours, key = cv2.contourArea, reverse = True)[:10]
 screenCnt = None
 cv2.imshow('edgh',edged)
 for c in contours:
