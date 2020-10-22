@@ -28,6 +28,7 @@ python3 program_name.py
 ### Program Effectiveness
 
 | No | Program Library | Accuracy|
+|----|-----------------|---------|
 | 1  | easy_ocr        | **80%** |
 | 2  | google-vision   | **90%** |
 | 3  | Pytessearct     | **70%** |
